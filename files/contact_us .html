@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beach Paradise</title>
+  <link rel="stylesheet" href="contact _us.css">
+  <link rel="icon" href="beach-icon.png" type="image/png">
+</head>
+<body>
+
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="Video-for-You">
+            <source src="vid.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <a href="#" target="_blank">
+              <img src="logo.png" alt="Logo" class="logo">
+          </a>
+          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+          <ul id="nav-links">
+              <li><a href="./Home.html" target="_blank">HOME</a></li>
+              <li><a href="#" target="_blank">BEACHES</a></li>
+              <li><a href="#" target="_blank">POPULAR PLACES</a></li>
+              <li><a href="files/contact_us.html" target="_self">CONTACT US</a></li>
+              <li><a class="login" href="Login.html" target="_self">Sign Up</a></li>
+          </ul>
+      </nav>
+      <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to book your next beach vacation? Reach out to us!</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    </div>
+    <script>
+      function toggleMenu() {
+          const menu = document.getElementById("nav-links");
+          menu.classList.toggle("active");
+      }
+  </script>
+</body>
+</html>

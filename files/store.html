@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaches</title>
+    <link rel="stylesheet" href="task_33.css">
+</head>
+<body>
+    <div class="HERO">
+        <video autoplay loop muted plays-inline class="Video-for-You">
+            <source src="vid.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <a href="#" target="_blank">
+              <img src="logo.png" alt="Logo" class="logo">
+          </a>
+          <div class="menu-icon" onclick="toggleMenu()">☰</div>
+          <ul id="nav-links">
+              <li><a href="./Home.html" target="_blank">HOME</a></li>
+              <li><a href="#" target="_blank">BEACHES</a></li>
+              <li><a href="#" target="_blank">POPULAR PLACES</a></li>
+              <li><a href="/task_1/ta/files/contact_us.html" target="_self">CONTACT US</a></li>
+              <li><a class="login" href="Login.html" target="_self">Sign Up</a></li>
+          </ul>
+      </nav>
+        <div class="Projects">
+                <a href="#"><img src="1.jpg" alt="ERROR" ></a>
+                <a href="#"><img src="2.jpg" alt="ERROR" ></a>
+                <a href="#"><img src="3.jpg" alt="ERROR" ></a>
+                <a href="#"><img src="4.JPG" alt="ERROR" ></a>
+                <a href="#"><img src="img.webp" alt="ERROR" ></a>
+                <a href="#"><img src="4.JPG" alt="ERROR" ></a>
+
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("nav-links");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
